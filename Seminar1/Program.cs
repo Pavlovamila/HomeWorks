@@ -39,15 +39,12 @@ Console.WriteLine($"Last digit of {number} is {result}");
 
 //Задача 4. Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
-Console.Write("Input a first number: ");
-int a = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input a second number: ");
-int n = Convert.ToInt32(Console.ReadLine());
-
-for(int i = 0; i <= 0; i++)
-{
-    if(a % 2 == 0)
+Console.WriteLine("Введите  число:");
+int n;
+n = Convert.ToInt32(Console.ReadLine());
+for (int i = 1; i <= n; i++)            
+ {if (i % 2==0)
     {
-        Console.WriteLine(a + " ");
+        Console.Write(i + " ");
     }
-}
+ }
